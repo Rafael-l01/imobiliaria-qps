@@ -2,7 +2,10 @@ package model.propriedade;
 
 import model.agenda.Agenda;
 
+import java.util.concurrent.atomic.AtomicInteger;
+
 public abstract class InterfacePropriedade {
+    private static final AtomicInteger count = new AtomicInteger(1);
     private int id;
     private Endereco endereco;
     private double area;
@@ -14,8 +17,8 @@ public abstract class InterfacePropriedade {
     private String descricao;
     private Agenda agenda;
 
-    public InterfacePropriedade(int id, Endereco endereco, double area, double valorCondominio, double valorImovel, int quartos, int banheiros, int vagasGaragem, String descricao, Agenda agenda) {
-        this.id = id;
+    public InterfacePropriedade(Endereco endereco, double area, double valorCondominio, double valorImovel, int quartos, int banheiros, int vagasGaragem, String descricao) {
+        this.id = count.incrementAndGet();
         this.endereco = endereco;
         this.area = area;
         this.valorCondominio = valorCondominio;
@@ -24,7 +27,18 @@ public abstract class InterfacePropriedade {
         this.banheiros = banheiros;
         this.vagasGaragem = vagasGaragem;
         this.descricao = descricao;
-        this.agenda = agenda;
+        this.agenda = new Agenda();
+    }
+
+    public void setPropriedade(Endereco endereco, double area, double valorCondominio, double valorImovel, int quartos, int banheiros, int vagasGaragem, String descricao) {
+        this.endereco = endereco;
+        this.area = area;
+        this.valorCondominio = valorCondominio;
+        this.valorImovel = valorImovel;
+        this.quartos = quartos;
+        this.banheiros = banheiros;
+        this.vagasGaragem = vagasGaragem;
+        this.descricao = descricao;
     }
 
     public int getId() {

@@ -6,8 +6,8 @@ import java.util.Date;
 public abstract class InterfaceAgenda {
     private ArrayList<Date> visitas;
 
-    public InterfaceAgenda(ArrayList<Date> visitas) {
-        this.visitas = visitas;
+    public InterfaceAgenda() {
+        this.visitas = new ArrayList<Date>();
     }
 
     public ArrayList<Date> getVisitas() {
@@ -17,4 +17,8 @@ public abstract class InterfaceAgenda {
     public void setVisitas(ArrayList<Date> visitas) {
         this.visitas = visitas;
     }
+
+    public abstract void marcarVisita(Date dataHorarioInicio);
+
+    public abstract void desmarcarVisita(Date dataHorarioInicio);
 }
