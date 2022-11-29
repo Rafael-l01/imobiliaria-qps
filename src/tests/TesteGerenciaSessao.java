@@ -2,10 +2,9 @@ package tests;
 
 import java.util.ArrayList;
 import java.util.Date;
-import model.usuario.Comprador;
-import model.usuario.Proprietario;
+
 import model.usuario.Usuario;
-import processos.GerenciaSessao;
+import services.GerenciaSessao;
 
 public class TesteGerenciaSessao extends Teste {
 
@@ -63,7 +62,7 @@ public class TesteGerenciaSessao extends Teste {
 
   @Override
   public void run() {
-    System.out.println("TESTE GERENCIA SESSAO \n");
+    System.out.println("\nTESTE GERENCIA SESSAO \n");
     this.testeCadastrarComprador();
     this.testeCadastrarProprietario();
     this.testeLoginUsuario();

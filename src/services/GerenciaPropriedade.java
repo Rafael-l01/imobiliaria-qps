@@ -1,9 +1,8 @@
-package processos;
+package services;
 
 import model.propriedade.Endereco;
 import model.propriedade.Propriedade;
 import model.usuario.Administrador;
-import model.usuario.Usuario;
 
 import java.util.ArrayList;
 import java.util.Iterator;

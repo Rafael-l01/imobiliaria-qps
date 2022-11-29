@@ -1,10 +1,9 @@
 package tests;
 
 import java.util.ArrayList;
-import java.util.Date;
+
 import model.propostaCompra.PropostaCompra;
-import processos.GerenciaSessao;
-import processos.RealizarPropostaCompra;
+import services.RealizarPropostaCompra;
 
 public class TesteRealizarPropostaCompra extends Teste {
 
@@ -32,7 +31,7 @@ public class TesteRealizarPropostaCompra extends Teste {
 
   @Override
   public void run() {
-    System.out.println("TESTE PROPOR COMPRAR \n");
+    System.out.println("\nTESTE PROPOR COMPRAR \n");
     this.testeProporCompra();
   }
 

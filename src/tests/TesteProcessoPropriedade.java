@@ -1,16 +1,14 @@
 package tests;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.Iterator;
-import model.propostaCompra.PropostaCompra;
+
 import model.propriedade.Endereco;
 import model.propriedade.Propriedade;
 import model.usuario.Administrador;
-import processos.AcessaPropriedade;
-import processos.GerenciaPropriedade;
-import processos.RealizarPropostaCompra;
+import services.AcessaPropriedade;
+import services.GerenciaPropriedade;
 
 public class TesteProcessoPropriedade extends Teste{
 
@@ -147,7 +145,7 @@ public class TesteProcessoPropriedade extends Teste{
     this.gerenciaPropriedade = new GerenciaPropriedade();
     this.acessaPropriedade = new AcessaPropriedade();
     this.dataNascimento = new Date(2000, 10, 10);
-    administrador = new Administrador(
+    this.administrador = new Administrador(
         "Davi Emediato (Administrador)",
         "davizinho.123@email.com",
         "31999999999",
@@ -160,7 +158,7 @@ public class TesteProcessoPropriedade extends Teste{
 
   @Override
   public void run() {
-    System.out.println("TESTE PROCESSO PROPRIEDADE \n");
+    System.out.println("\nTESTE PROCESSO PROPRIEDADE \n");
     this.testeCadastrarImovel();
     this.testeAprovarCadastroImovel();
     this.testeAlterarImovel();
