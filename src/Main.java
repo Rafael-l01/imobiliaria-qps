@@ -1,7 +1,4 @@
-import tests.Teste;
-import tests.TesteGerenciaSessao;
-import tests.TesteProcessoPropriedade;
-import tests.TesteRealizarPropostaCompra;
+import tests.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -9,10 +6,11 @@ public class Main {
         TesteGerenciaSessao testeGerenciaSessao = new TesteGerenciaSessao();
         TesteRealizarPropostaCompra testePropostaCompra = new TesteRealizarPropostaCompra();
         TesteProcessoPropriedade testeProcessoPropriedade = new TesteProcessoPropriedade();
+        TesteProcessoAgenda testeProcessoAgenda = new TesteProcessoAgenda();
 
-//        testeGerenciaSessao.run();
-//        testePropostaCompra.run();
+        testeGerenciaSessao.run();
+        testePropostaCompra.run();
         testeProcessoPropriedade.run();
-
+        testeProcessoAgenda.run();
     }
 }
