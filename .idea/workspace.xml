@@ -3,16 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="1fba0979-d4e2-48e9-87fe-740a8269f91b" name="Changes" comment="chore: automatic changes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/imobiliaria-qps.iml" beforeDir="false" afterPath="$PROJECT_DIR$/imobiliaria-qps.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/agenda/Agenda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/agenda/Agenda.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/agenda/InterfaceAgenda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/agenda/InterfaceAgenda.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/propostaCompra/InterfacePropostaCompra.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/propostaCompra/InterfacePropostaCompra.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/model/propriedade/InterfacePropriedade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/propriedade/InterfacePropriedade.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/propriedade/Propriedade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/propriedade/Propriedade.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/usuario/Administrador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/usuario/Administrador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/usuario/Comprador.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/usuario/Comprador.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/usuario/Corretor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/usuario/Corretor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/model/usuario/Proprietario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/usuario/Proprietario.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/model/usuario/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/usuario/Usuario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/processos/AcessaPropriedade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/processos/AcessaPropriedade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/processos/RealizarPropostaCompra.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/processos/RealizarPropostaCompra.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,13 +38,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "/Users/rodrigomoreira/Documents/code/qualidade-software/imobiliaria-qps",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
-}</component>
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="imobiliaria-qps" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

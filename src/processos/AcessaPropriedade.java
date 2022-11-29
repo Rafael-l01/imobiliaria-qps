@@ -13,10 +13,10 @@ public class AcessaPropriedade extends ProcessoPropriedade {
         while(iterator.hasNext()){
             Propriedade propriedade = iterator.next();
             if(propriedade.getEndereco().getRua().equals(rua) && propriedade.getEndereco().getBairro().equals(bairro) && propriedade.getArea() == area && propriedade.getValorCondominio() == valorCondominio && propriedade.getValorImovel() == valorImovel && propriedade.getQuartos() == quartos && propriedade.getBanheiros() == banheiros && propriedade.getVagasGaragem() == vagasGaragem) {
-                propriedades.add(propriedade);
+                propriedadesFiltradas.add(propriedade);
             }
         }
 
-        return propriedades;
+        return propriedadesFiltradas;
     }
 }

@@ -16,6 +16,14 @@ public abstract class InterfacePropostaCompra {
         this.valor = valor;
     }
 
+    @Override
+    public String toString() {
+        String propostaCompra = "";
+        propostaCompra += "{" + this.id + " " + this.idComprador + " " + this.idComprador + " " + this.idImovel + " " + this.valor + "}";
+
+        return propostaCompra;
+    }
+
     public int getId() {
         return id;
     }
