@@ -30,11 +30,6 @@ public abstract class InterfacePropriedade {
         this.agenda = new Agenda();
     }
 
-    @Override
-    public String toString() {
-        return this.endereco.getEndereco();
-    }
-
     public void setPropriedade(Endereco endereco, double area, double valorCondominio, double valorImovel, int quartos, int banheiros, int vagasGaragem, String descricao) {
         this.endereco = endereco;
         this.area = area;

@@ -1,22 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1fba0979-d4e2-48e9-87fe-740a8269f91b" name="Changes" comment="chore: config files">
+    <list default="true" id="1fba0979-d4e2-48e9-87fe-740a8269f91b" name="Changes" comment="refactor: create packages for each service function">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/AcessaPropriedade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/propriedade/AcessaPropriedade.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/AgendamentoVisitas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/agenda/AgendamentoVisitas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/GerenciaAgenda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/agenda/GerenciaAgenda.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/GerenciaPropriedade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/propriedade/GerenciaPropriedade.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/GerenciaSessao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/sessaoUsuario/GerenciaSessao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/ProcessoAgenda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/agenda/ProcessoAgenda.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/ProcessoPropostaCompra.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/propostaCompra/ProcessoPropostaCompra.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/ProcessoPropriedade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/propriedade/ProcessoPropriedade.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/RealizarPropostaCompra.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/propostaCompra/RealizarPropostaCompra.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/services/SessaoDeUsuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/services/sessaoUsuario/SessaoDeUsuario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/TesteGerenciaSessao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/TesteGerenciaSessao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/TesteProcessoAgenda.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/TesteProcessoAgenda.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/TesteProcessoPropriedade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/TesteProcessoPropriedade.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/TesteRealizarPropostaCompra.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/TesteRealizarPropostaCompra.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/propriedade/Endereco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/propriedade/Endereco.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/propriedade/InterfacePropriedade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/propriedade/InterfacePropriedade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/model/propriedade/Propriedade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/model/propriedade/Propriedade.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669744249175</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="refactor: create packages for each service function">
+      <created>1669745215396</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1669745215396</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -144,6 +140,7 @@
     <MESSAGE value="refactor: rename processos directory to services" />
     <MESSAGE value="fix: change Date to LocalDateTime if time is needed in date" />
     <MESSAGE value="chore: config files" />
-    <option name="LAST_COMMIT_MESSAGE" value="chore: config files" />
+    <MESSAGE value="refactor: create packages for each service function" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: create packages for each service function" />
   </component>
 </project>

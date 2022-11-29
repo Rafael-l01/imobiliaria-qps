@@ -8,7 +8,7 @@ public class Endereco extends InterfaceEndereco {
     @Override
     public String getEndereco() {
         String endereco = "";
-        endereco += "Rua " + this.getRua() + " " + this.getNumero() + "\n" + this.getBairro() + "\n" + this.getCidade() + " - " + this.getEstado() + "\n" + "CEP " + this.getCep() + "\n" + this.getPais();
+        endereco += this.getRua() + " " + this.getNumero() + " - " + this.getBairro() + ". Cidade: " + this.getCidade() + " - " + this.getEstado() + ". CEP " + this.getCep() + ". País: " + this.getPais();
         return endereco;
     }
 }
