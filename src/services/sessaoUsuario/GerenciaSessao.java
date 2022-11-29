@@ -1,6 +1,7 @@
-package services;
+package services.sessaoUsuario;
 
 import model.usuario.*;
+import services.sessaoUsuario.SessaoDeUsuario;
 
 import java.util.ArrayList;
 import java.util.Date;

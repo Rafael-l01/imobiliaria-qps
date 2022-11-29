@@ -1,11 +1,11 @@
-package services;
+package services.agenda;
 
 import model.propriedade.Propriedade;
 import model.usuario.Corretor;
 
 import java.time.LocalDateTime;
 
-public class GerenciaAgenda extends ProcessoAgenda{
+public class GerenciaAgenda extends ProcessoAgenda {
     public boolean marcarVisita(Propriedade propriedade, Corretor corretor, LocalDateTime dataHorarioInicio) {
         AgendamentoVisitas agendamentoVisitas = new AgendamentoVisitas();
 

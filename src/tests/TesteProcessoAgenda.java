@@ -3,7 +3,7 @@ package tests;
 import model.propriedade.Endereco;
 import model.propriedade.Propriedade;
 import model.usuario.Corretor;
-import services.GerenciaAgenda;
+import services.agenda.GerenciaAgenda;
 
 import java.time.LocalDateTime;
 import java.util.Date;

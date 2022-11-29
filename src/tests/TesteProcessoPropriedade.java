@@ -7,8 +7,8 @@ import java.util.Iterator;
 import model.propriedade.Endereco;
 import model.propriedade.Propriedade;
 import model.usuario.Administrador;
-import services.AcessaPropriedade;
-import services.GerenciaPropriedade;
+import services.propriedade.AcessaPropriedade;
+import services.propriedade.GerenciaPropriedade;
 
 public class TesteProcessoPropriedade extends Teste{
 
@@ -22,7 +22,7 @@ public class TesteProcessoPropriedade extends Teste{
   public void testeCadastrarImovel() {
     System.out.println("Teste Cadastrar Imovel");
     gerenciaPropriedade.cadastrarImovel(
-        new Endereco("Rua Deputado Bernardino",
+        new Endereco("Deputado Bernardino",
             100,
             "Cidade Nova",
             "Belo Horizonte",
@@ -64,7 +64,7 @@ public class TesteProcessoPropriedade extends Teste{
     );
 
     gerenciaPropriedade.cadastrarImovel(
-        new Endereco("Rua Trento",
+        new Endereco("Trento",
             100,
             "Bandeirantes",
             "Belo Horizonte",

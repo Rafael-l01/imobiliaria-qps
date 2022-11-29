@@ -1,4 +1,4 @@
-package services;
+package services.propriedade;
 
 import model.propriedade.Propriedade;
 

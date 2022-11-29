@@ -1,6 +1,7 @@
-package services;
+package services.propostaCompra;
 
 import model.propostaCompra.PropostaCompra;
+import services.propostaCompra.ProcessoPropostaCompra;
 
 import java.util.ArrayList;
 

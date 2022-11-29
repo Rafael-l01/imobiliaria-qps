@@ -1,4 +1,4 @@
-package services;
+package services.propostaCompra;
 
 public abstract class ProcessoPropostaCompra {
 }

@@ -1,7 +1,8 @@
-package services;
+package services.agenda;
 
 import model.propriedade.Propriedade;
 import model.usuario.Corretor;
+import services.agenda.ProcessoAgenda;
 
 import java.time.LocalDateTime;
 import java.util.Iterator;

@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Date;
 
 import model.usuario.Usuario;
-import services.GerenciaSessao;
+import services.sessaoUsuario.GerenciaSessao;
 
 public class TesteGerenciaSessao extends Teste {
 

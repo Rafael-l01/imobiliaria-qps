@@ -3,7 +3,7 @@ package tests;
 import java.util.ArrayList;
 
 import model.propostaCompra.PropostaCompra;
-import services.RealizarPropostaCompra;
+import services.propostaCompra.RealizarPropostaCompra;
 
 public class TesteRealizarPropostaCompra extends Teste {
 
